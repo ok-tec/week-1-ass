@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1{
+    border: 2px dotted cornflowerblue;
+    text-align: center ;
+    color: red;
+    background-color: bisque;
+}
+h1 span{
+color: blue;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+
+aside{
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+}
+section{
+    border-bottom: 1px solid blue;
+    border-top: 1px solid blue;
+}
