@@ -5,6 +5,10 @@
     scroll-behavior: smooth;
 }
 
+html{
+  font-size: 62.5%;
+}
+
 .hero{
     position: relative;
     width: 100%;
@@ -22,14 +26,14 @@ nav{
 }
 
 .logo{
-    width: 100px;
+    width: 10rem;
     cursor: pointer;
 }
 
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 1rem 2rem;
 }
 
 nav ul li a{
@@ -48,7 +52,7 @@ nav ul li a:hover{
 }
 
 .detail h1{
-    font-size: 50px;
+    font-size: 5rem;
     color: #212121;
     margin-bottom: 20px;
 }
@@ -60,18 +64,18 @@ span{
 
 .detail p{
     color: #555;
-    line-height: 22px;
+    line-height: 2.2rem;
 }
 
 .detail a{
     background: #212121;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     text-decoration: none;
     font-weight: bold;
     color: #fff;
     display: inline-block;
-    margin: 30px 0;
-    border-radius: 40px;
+    margin: 3rem 0;
+    border-radius: 4rem;
 }
 
 .images{
@@ -79,7 +83,7 @@ span{
     height: 80%;
     position: absolute;
     bottom: 0;
-    right: 100px;
+    right: 10rem;
 }
 
 .images img{
@@ -101,13 +105,13 @@ span{
 
 .social{
     margin-left: 8%;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .social a{
-    font-size: 30px;
+    font-size: 3rem;
     color: #1f08f0;
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 
 .social a:hover{
@@ -120,7 +124,7 @@ span{
   width: 100%;
   height: 100vh;
   background: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85));
-  margin-top: 15px;
+  margin-top: 1.5rem;
   position: relative;
 }
 
@@ -132,7 +136,7 @@ span{
 .navbar{
   width: 85%;
   margin-left: 32%;
-  padding: 35px 0;
+  padding: 3.5rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -187,10 +191,10 @@ span{
 
 .title{
   text-transform: uppercase;
-  font-size: 70px;
-  line-height: 100px;
+  font-size: 7rem;
+  line-height: 10rem;
   font-weight: bold;
-  height: 100px;
+  height: 10rem;
   display: flex;
   justify-content: center;
   text-align: left;
@@ -199,18 +203,18 @@ span{
 }
 
 .content p{
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: 100;
-  line-height: 25px;
+  line-height: 2.5rem;
 }
 
 button{
-  padding: 15px 25px;
-  margin: 20px;
-  font-size: 16px;
-  letter-spacing: 2px;
+  padding: 1.5rem 2.5rem;
+  margin: 2rem  ;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
   border: 1px solid #fff;
-  border-radius: 20px;
+  border-radius: 2rem;
   color: #fff;
   cursor: pointer;
   background: linear-gradient(to left, transparent 50%, #0751ff 50%);
@@ -225,17 +229,45 @@ button:hover{
 
 .slider{
   color: #0751ff;
-  margin-left: 12px;
+  margin-left: 1.2rem;
   box-sizing: border-box;
   animation: slider 6s linear infinite;
 }
 
 @keyframes slider{
-  0%{margin-top: 200px;}
-  30%{margin-top: 200px;}
-  35%{margin-top: 0px;}
-  65%{margin-top: 0px;}
-  70%{margin-top: -200px;}
-  100%{margin-top: -200px;}
+  0%{margin-top: 20rem;}
+  30%{margin-top: 20rem;}
+  35%{margin-top: 0rem;}
+  65%{margin-top: 0rem;}
+  70%{margin-top: -20rem;}
+  100%{margin-top: -20rem;}
 }
             
+
+@media (max-width: 900px){
+      ul{display: none;
+        }
+        nav{
+          justify-content: center;
+        }
+  .detail{
+    display: flex;
+    flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-top: 0;
+  margin-left: 0;
+  }
+   .images{
+display: none;
+}
+
+.social{
+  text-align: center;
+}
+
+
+
+}
+
