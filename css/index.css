@@ -268,7 +268,7 @@ display: none;
 }
 
 
-@media max-width(500px){
+@media (max-width : 500px){
 .part2 .ul{
 display: none;
 } 
@@ -278,6 +278,5 @@ display: none;
 .part2 .content{
   width: 5rem;
 }
-
 
 }
