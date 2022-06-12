@@ -14,6 +14,11 @@ html{
     width: 100%;
     height: 100vh;
     background: #eff4fd;
+    max-width: 180rem;
+}
+
+#part2{
+  max-width: 180rem;
 }
 
 nav{
@@ -245,10 +250,14 @@ button:hover{
             
 
 @media (max-width: 900px){
-      ul{display: none;
+      ul{
         }
         nav{
           justify-content: center;
+          display: flex;
+          flex-direction: column-reverse;
+          margin-left: 1rem;
+    
         }
   .detail{
     display: flex;
@@ -267,16 +276,18 @@ display: none;
   text-align: center;
 }
 
-
-@media (max-width : 500px){
-.part2 .ul{
+.ul{
 display: none;
 } 
-.part2 .png{
+.png{
   display: none;
 }
-.part2 .content{
+.content{
   width: 5rem;
 }
+
+}
+
+@media (max-width : 500px){
 
 }
