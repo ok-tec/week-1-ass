@@ -256,7 +256,7 @@ button:hover{
           justify-content: center;
           display: flex;
           flex-direction: column-reverse;
-          margin-left: 1rem;
+          width: 45rem;
     
         }
   .detail{
@@ -276,14 +276,22 @@ display: none;
   text-align: center;
 }
 
-.ul{
+/* part 2 */
+}
+.navbar{
 display: none;
 } 
 .png{
   display: none;
 }
-.content{
-  width: 5rem;
+
+#part2 p{
+  text-align: center;
+}
+
+.title1{
+  text-align: center;
+  justify-self: center;
 }
 
 }
