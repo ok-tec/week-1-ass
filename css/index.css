@@ -269,10 +269,14 @@ button:hover{
     flex-direction: column-reverse;
   justify-content: flex-start;
   align-items: center;
-
   margin-top: 0;
   margin-left: 0;
   }
+
+  .detail a{
+    margin-left: 15rem;
+  }
+
    .images{
 display: none;
 }
