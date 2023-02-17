@@ -17,15 +17,11 @@ html{
     max-width: 180rem;
 }
 
-#part2{
-  max-width: 200rem;
-}
-
 nav{
     display: flex;
     width: 76%;
     margin: auto;
-    padding: 10px 0;
+    padding: 1rem 0;
     align-items: center;
     justify-content: space-between;
 }
@@ -39,51 +35,58 @@ nav ul li {
     display: inline-block;
     list-style: none;
     margin: 1rem 1rem;
+    font-weight: bolder;
+    font-size: ;
 }
 
 nav ul li a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
+    font-size: large;
 }
 
 nav ul li a:hover{
     color: red;
 }
 
-.detail{
-    margin-left: 8%;
+.detail1{
+    margin-left: 3%;
     margin-top: 15%;
+    font-size: 1.2rem;
 }
 
-.detail h1{
+.detail1 h1{
     font-size: 5rem;
     color: #212121;
-    margin-bottom: 20px;
-    text-align: center;
+    margin-bottom: 2rem;
+    text-align: left;
+    padding-left: 0%;
 }
 
 span{
-    color: orange;
+    color: blue;
     
 }
 
-.detail p{
+.detail1 p{
     color: #555;
     line-height: 2.2rem;
-    text-align: center;
+    text-align: left;
     text-decoration: solid;
     text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding-left: 0%;
 }
 
-.detail a{
+.detail1 a{
     background: #212121;
-    padding: 1rem 2rem;
+    padding: 1rem 5rem;
     text-decoration: none;
     font-weight: bold;
     color: #fff;
     display: inline-block;
-    margin: 3rem 0;
+    margin: 3rem 3rem;
     border-radius: 4rem;
     align-items: center;
 }
@@ -114,18 +117,18 @@ span{
 }
 
 .social{
-    margin-left: 8%;
-    margin-top: 2rem;
+    margin-left: 6%;
+    margin-top: 0rem;
 }
 
 .social a{
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #1f08f0;
     margin-right: 2rem;
 }
 
 .social a:hover{
-    color: orange;
+    color: red;
 }
 
 /* about me section  */
@@ -134,7 +137,7 @@ span{
   width: 100%;
   height: 100vh;
   background: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85));
-  margin-top: 1.5rem;
+  margin-top: 0;
   position: relative;
 }
 
@@ -145,7 +148,7 @@ span{
 
 .navbar{
   width: 85%;
-  margin-left: 32%;
+  margin-left: 13%;
   padding: 3.5rem 0;
   display: flex;
   align-items: center;
@@ -199,7 +202,7 @@ span{
   color: #fff;
 }
 
-.title{
+.title1{
   text-transform: uppercase;
   font-size: 7rem;
   line-height: 10rem;
@@ -218,7 +221,7 @@ span{
   line-height: 2.5rem;
 }
 
-button{
+.content button{
   padding: 1.5rem 2.5rem;
   margin: 2rem  ;
   font-size: 1rem;
@@ -254,16 +257,17 @@ button:hover{
 }
             
 
-@media (max-width: 900px){
-      ul{
-        }
+@media (max-width: 500px){
         nav{
-          justify-content: center;
+          width: 100%;
           display: flex;
-          flex-direction: column-reverse;
-          width: 45rem;
-    
+          flex-direction: row;
+          margin-left: 0%;
+          margin-right: 0%;
         }
+  nav ul li a{
+    font-size: small;
+  }
   .detail{
     display: flex;
     flex-direction: column-reverse;
@@ -286,7 +290,7 @@ display: none;
 }
 
 /* part 2 */
-}
+
 .navbar{
 display: none;
 } 
@@ -296,8 +300,13 @@ display: none;
 
 #part2 p{
   text-align: center;
+  font-size: small;
 }
 
+.content{
+ font-size: small;
+ text-align: center; 
+}
 .title1{
   text-align: center;
   justify-self: center;
